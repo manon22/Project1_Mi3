@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FoodPool - Sign in</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="img/logo.jpg" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/sign.css">
+	</head>
+    <body class="text-center">
+        <form class="form-signin">
+            <img class="mb-4" src="img/logo.jpg" alt="FoodPool Logo">
+            <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="text" id="inputLogin" class="form-control" placeholder="Login" onkeyup="lowerCase('inputLogin')" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" onclick="showPassword()"> Show Password
+                </label>
+                &nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+        <script type="application/javascript" src="js/app.js"></script>
+    </body>
+</html>

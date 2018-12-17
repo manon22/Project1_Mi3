@@ -1,17 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>FoodPool - Home</title>
-        <meta charset="utf-8" />
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="img/logo.jpg" />
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/navbar.css">
-	</head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="manon" content="">
+
+    <title>Food title</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+      
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Start Sharing</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#add">Add food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#search">search food</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#info">Meer Info</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white" id="home">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">FoodPool</h1>
+          <h2 class="masthead-subheading mb-0"></h2>
+          <a href="#info" class="btn btn-primary btn-xl rounded-pill mt-5">Meer Info</a>
+        </div>
+      </div>
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+
+    <section>
+      <div class="container text-center"  id="add" style="margin-top: 5%;">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2" style="">
+            <div class="p-5">
+              <img class="border" src="img/shareFood.jpg" alt="" style="width:30%;" >
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h1 class="display-4">For those who want to share</h1>  
+              <h2>Sharing is caring</h2>
+                <form id="toevoegen" action="food.php" method="POST">
+                            <p>Voeg jouw producten toe</p>
+                            <ul>
+                                
+                                    <div class="item-content" style="margin-left: -9%">
+                                        <div class="item-inner">
+                                            <div class="item-title label"></div>
+                                            <div class="item-input" >
+                                                <label>
+                                                <input id="food" type="text" name="food" placeholder="Food" style="width: 250px;">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                    <div class="item-content" style="margin-left: -9%">
+                                        <div class="item-inner">
+                                            <div class="item-title label"></div>
+                                            <div class="item-input">
+                                                <label>
+                                                <input id="Prijs" type="text" name="Prijs" placeholder="Prijs"  style="width: 250px;">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                    <div class="item-content" style="margin-left: -9%">
+                                        <div class="item-inner">
+                                            <div class="item-title label"></div>
+                                            <div class="item-input">
+                                                <label>
+                                                <input id="houdbaar" type="text" name="houdbaar" placeholder="Houdbaar" style="width: 250px;">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </ul>
+                            <div class="content-block-toevoegen">
+                                <a class="button" id='toevoegen' href="indexA.html">TOEVOEGEN</a>
+                            </div>
+                        </form>
+                
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container text-center" id="search">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/near.png" alt="positie" style="width:30%;">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2 class="display-4">Search your nearest seller</h2>
+                <p>Type your postal code to see who in your community is sharing or selling their food  </p>
+                <form class="searchbar searchbar-init">
+                <div class="searchbar-input">
+                    <input type="search" placeholder="Search">
+                    <a href="#" class="searchbar-clear"></a>
+                 </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="py-5 bg-cadetblue">
+      <div class="container" style="color: azure; background-color: cadetblue; margin-top: 13px">
+        <p class="m-0 text-center text-white small">Copyright &copy; Foodpool 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+      
+      <script type="text/javascript" src="js/framework7.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+      
+
+  </body>
+
 </html>

@@ -42,3 +42,26 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.form-signin button[type="submit"] {
+  background-color: darkseagreen;
+}
+.form-signin button[type="button"] {
+  background-color: darkseagreen;
+  
+}
+#h1Food{
+    color: aquamarine;
+    text-align: center;
+    
+    
+}
+#logo{
+    width: 25%;
+    margin-left: 20px;
+}
+.header{
+    margin-top: -80%;
+    position: fixed;
+    margin-left: 60px;
+    
+}

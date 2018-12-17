@@ -1,0 +1,782 @@
+/* _______INDEX PAGINA________ */
+
+/* main items*/
+
+.navbar {
+    background-color: #F1F1F1;
+}
+
+.page {
+    background-color: #F1F1F1;
+    height: 100%;
+    width: 100%;
+}
+
+
+.item-input {
+    border-style: none none solid none;
+}
+
+h2 {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Inhoud in navigate ABOUT*/
+
+div.content-block {
+    padding-top: 50px;
+}
+
+
+.list-block {
+    font-size: 13px;
+}
+
+/*tekst in about*/
+
+.content-block {
+    margin: 0px 10;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+}
+
+/*Titel welkom*/
+
+h5 {
+    font-size: 20px;
+}
+
+
+/*About navgatie */
+
+a {
+    text-decoration: none;
+    color: orange;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+/*About kleur hover*/
+
+.open-panel:hover,
+.open-panel:focus {
+    background: transparent;
+    color: #333333;
+    border-radius: 2em;
+}
+
+/*responsive content-block1/ inhoud index*/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    .content-block1 {
+        padding-top: 50px;
+    }
+}
+
+/* Titel "Second Chance"*/
+
+H6 {
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    padding-top: 100px;
+    font-family: inherit;
+}
+
+/*responsive H6*/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    H6 {
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
+
+/*logo*/
+
+img {
+    display: block;
+    height: 150px;
+    margin: auto;
+}
+
+/*responsive img/logo*/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    img {
+        display: block;
+        height: 150px;
+        margin: auto;
+        padding-top: 0px;
+    }
+}
+
+/* JOIN US + LOGIN BUTTON*/
+
+/*Join us utton*/
+
+.theme-orange .button.button-fill {
+    background-color: #333333;
+    border: 1px solid white;
+    font-size: 18px;
+    transition: all 0.5s;
+    color: orange;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.theme-orange .button.button-big {
+    margin-top: 0px;
+}
+
+.button.button-big {
+    height: 44px;
+    line-height: 42px;
+    width: 300px;
+    position: relative;
+}
+
+.button.button-fill {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+    font-size: 18px;
+    transition: all 0.5s;
+    color: orange;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.button.button-fill:hover,
+.button.button-fill:focus {
+    background: orange;
+    color: white;
+    border-radius: 27px;
+    border-color: orange;
+}
+
+/*Login button*/
+
+.link .button.button-fill {
+    background-color: #333333;
+    border: 1px solid white;
+    font-size: 18px;
+    transition: all 0.5s;
+    color: orange;
+    align-items: flex-start;
+    margin: auto;
+}
+
+
+.link .button.button-fill:hover,
+.link .button.button-fill:focus {
+    background: orange;
+    color: white;
+    border-radius: 27px;
+    border-color: orange;
+}
+
+a.link {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 27px;
+}
+
+
+.theme-orange .button.button-fill:hover,
+.theme-orange .button.button-fill:focus {
+    background: orange;
+    color: #fff;
+    border: 1px solid orange;
+}
+
+
+
+
+/* ______registratie pagina_____*/
+
+form#registreren {
+    background: ;
+    color: #333333;
+    position: absolute;
+    list-style-type: none;
+    text-align: -webkit-center;
+    padding-bottom: 50px;
+}
+
+.theme-join form#registreren {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-input {
+    border-style: none;
+    padding-bottom: 30px;
+
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: transparent;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    border-width: 0px;
+    border-style: inset;
+    border-image: initial;
+    height: 30px;
+    width: 300px;
+    border-bottom: orange solid 0.01em;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    input {
+        width: 200px;
+        height: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    color: #333333;
+    text-align: left;
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 1px;
+
+}
+
+
+#registreren.button {
+
+    background: #333333;
+    border: orange;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    position: fixed;
+    top: 90%;
+    width: 300px;
+    bottom: 15px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    #registreren.button {
+
+        width: 220px;
+
+    }
+}
+
+#registreren.button:hover,
+#registreren.button:focus {
+    background: #F19C16;
+    color: white;
+    border-radius: 50px;
+}
+
+.
+/*______LOGIN pagina________ */
+
+form#login {
+    background: ;
+    color: #333333;
+    position: absolute;
+    list-style-type: none;
+    text-align: -webkit-center;
+    padding-bottom: 50px;
+}
+
+
+.theme-login {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+a#loginButton.logginbutton {
+
+    background: #333333;
+    border: orange;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    position: fixed;
+    left: 0%;
+    top: ;
+    text-align: center;
+    width: 300px;
+    bottom: -30px;
+    border-radius: 50px;
+}
+
+/*responsive login button in login pagina*/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    a#loginButton.logginbutton {
+        background: orange;
+        border: orange;
+        font-size: 20px;
+        transition: all 0.5s;
+        color: white;
+        position: fixed;
+        left: 0%;
+        top: ;
+        text-align: center;
+        width: 220px;
+        bottom: -60px;
+        border-radius: 50px;
+    }
+}
+
+
+a#loginButton.logginbutton:hover,
+a#loginButton.logginbutton:focus {
+    background: #F19C16;
+    color: white;
+    border-radius: 50px;
+}
+
+}
+
+
+
+
+/*-_______HOOFDPAGINA__________*/
+
+.intro-text {
+    position: relative;
+}
+
+.intro-text h1 {
+    font-size: 40px;
+    padding-top: 100px;
+    color: #333333;
+    text-align: center;
+    font-family: 'Framework7 Icons';
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    .intro-text h1 {
+        padding-top: 70px;
+        font-size: 50px;
+    }
+}
+
+.intro-text p {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 0;
+    text-align: center;
+}
+
+.color {
+    color: orange;
+    font-weight: 10;
+}
+
+/*zoek boek*/
+
+.searchbar {
+    width: 300px;
+    position: relative;
+    margin: auto;
+    background-color: transparent;
+}
+
+.searchItem {
+    padding-left: 30px;
+
+}
+
+div.search-result {
+    border: 2px solid orange;
+    display: none;
+    height: auto;
+    width: 400px;
+    padding-left: 0px;
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    div.search-result {
+        border: 2px solid orange;
+        display: none;
+        height: auto;
+        width: 340px;
+    }
+}
+
+
+
+
+
+/*logout button navigatie hoofdpagina*/
+
+a.logout {
+
+    background: orange;
+    border: orange;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s;
+    color: white;
+    position: fixed;
+    top: 50%;
+    width: 100px;
+    bottom: 15px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    a.logout {}
+}
+
+a.logout,
+a.logout {
+    background: #F19C16;
+    color: white;
+    border-radius: 50px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all i.icon.icon-bars {
+    background-image: url(../img/book.png);
+    height: 10px;
+}
+
+i.icon.icon-bars {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/book.png);
+}
+
+.navbar i.icon,
+.subnavbar i.icon,
+.toolbar i.icon {
+    display: block;
+}
+
+i.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-style: normal;
+    position: relative;
+}
+
+
+.button {
+    border: 1px solid #007aff;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    line-height: 27px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: 0 0;
+    padding: 0 10px;
+    margin: 0;
+    height: 29px;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+}
+
+/* ------------------------------------------------------profiel ----------------------------------------------------------- */
+
+.content-block2 h1 {
+    color: #333333;
+    font-family: serif;
+    font-size: 30px;
+}
+
+form#profiel {
+    background: rgba(51, 51, 51, 51);
+    color: orange;
+    /* background-size: 100%; */
+    position: absolute;
+    list-style-type: none;
+    text-align: -webkit-center;
+    padding: 50px;
+}
+
+div.theme-profiel form#profiel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+a#profiel.button {
+    background-color: orange;
+    border: 1px solid orange;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    width: 200px;
+    left: 1px;
+    top: 20px;
+    border-radius: 50px;
+
+
+}
+
+
+a#profiel.button:hover,
+a#profiel.button:focus {
+    background: white;
+    color: orange;
+    border-radius: 50px;
+    border-color: white;
+}
+
+
+
+/*_____MYBOOOKS pagina _____*/
+
+/*tovoegen button*/
+
+a#toevoegen.button {
+    background: #333;
+    border: #333;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: orange;
+    position: fixed;
+    left: 0%;
+    top: 100%;
+    width: 320px;
+    bottom: 15px;
+    border-radius: 50px;
+    line-height: 40px;
+    height: 40px;
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    a#toevoegen.button {
+        background: #333;
+        border: #333;
+        font-size: 15px;
+        transition: all 0.5s;
+        color: orange;
+        position: fixed;
+        left: 0%;
+        top: 100%;
+        width: 240px;
+        bottom: 15px;
+        border-radius: 50px;
+        line-height: 40px;
+        height: 40px;
+    }
+}
+
+a#toevoegen.button:hover,
+a#toevoegen.button:focus {
+    background: #F19C16;
+    color: white;
+    border-radius: 50px;
+}
+
+
+.page-content-mybooks {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+}
+
+
+
+/*messages pagina*/
+
+/*------------------------------------------*/
+
+
+
+
+/*contact*/
+
+/* section footer/contact */
+
+.container-footer {
+    background: #333333;
+    height: 200px;
+    border-top: orange solid 1em;
+    color: white;
+    padding-right: 100px;
+    margin-top: 120px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    .container-footer {
+        background: #333333;
+        height: 200px;
+        border-top: orange solid 1em;
+        color: white;
+        padding-right: 0px;
+        margin-top: 100px;
+    }
+}
+
+.contact {
+    text-align: right;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    .contact {
+        text-align: center;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    .copyright {
+        text-align: center;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (max-width: 100px) {
+
+    a#logout.button {
+    background: #333333;
+    border: orange;
+    font-size: 20px;
+    color: orange;
+    width: 200px;
+    bottom: -30px;
+    border-radius: 50px;
+
+    }
+}
+
+ .a#logout.button {
+    background: #333333;
+    border: orange;
+    font-size: 20px;
+    color: orange;
+    width: 200px;
+    bottom: -30px;
+    border-radius: 50px;}
+    
+    
+    
+    
+    
+    div.footer-footer{
+      background:#333;
+      color:white;
+      margin-top:450px;
+      text-align:center;
+      padding-bottom:12px;
+    }
+    
+    
+    
+    
+    
+    @media (-webkit-min-device-pixel-ratio: 2),
+not all @media only screen and (min-width: 100px) {
+
+    div.footer-footer{
+      background:#333;
+      color:white;
+      padding:10px;
+      margin-top:120px;
+      text-align:center;
+      
+    }
+
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
